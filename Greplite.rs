@@ -2,9 +2,8 @@ pub(crate) fn main(){
 
     let search_term = "pages";
     let quote = "\
-    Every face, every shop, bedroom window, public house and dark square is a picture. \
-    feverishly turned in search of what? It is the same with books. \
-    What do we seek in millions of pages?";
+    In every soul there is greatness and in every book there is knowledge. \
+    What do we seek in millions of pages then?";
     // quote is a good string object. Rust provides a lot of string functionality
     let mut line_num : usize = 1;
     for line in quote.lines(){
